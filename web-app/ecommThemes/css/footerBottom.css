@@ -1,0 +1,68 @@
+#footer{font-family:arial,sans-serif;border-top:5px solid rgb(73, 132, 147);width:100%;bootom:0px;float:left;margin-top:20px;background:#ddd;}
+
+#footer .allCat{padding:2% 4%;width:100%;background:#eee;float:left;}
+#footer .allCat .column{width:8%;float:left;overflow: hidden;}
+#footer .allCat .column .catHeading{font-size:0.8em;font-weight:600;color:rgb(21, 87, 101);}
+#footer .allCat .column .subCat{line-height:14px;}
+#footer .allCat .column .subCat a{font-size:0.8em;font-weight:500;color:#888;overflow: hidden;}
+#footer .allCat .column .subCat a:hover{color:#666;}
+
+#footer .message{padding:2% 4%;background:#ddd;width:100%;float:left;border-top:1px solid #ccc;}
+#footer .message .heading{width:100%;color:rgb(21, 87, 101);float:left;font-size:1.5em;text-align:center;padding-bottom:10px;font-weight:300;}
+#footer .message .text{width:100%;float: left;padding:0% 15%;font-size:0.9em;color:#888;text-align:center;}
+
+#footer .info{padding:2% 4%;color:#fff;background:rgb(21, 87, 101);width:100%;float:left;}
+#footer  ul{width:100%;float:left;}
+#footer  ul li{float:left;}
+#footer .info ul li.icon i{font-size:3.5em;font-weight:200;padding: 0px 5px;}
+#footer .info ul li.text{padding:5px 10px;}
+#footer .info ul li.text .big{font-weight:400;font-size:1.3em;width:100%;float:left;}
+#footer .info ul li.text .small{width:100%;float:left;font-size:0.8em;}
+#footer .info ul li.angleRight{padding:12px 25px 0px 10px;}
+#footer .info ul li.angleRight i{font-size:2em;}
+
+#footer .contact{padding:2% 4%;color:#fff;background:#ddd;width:100%;float:left;border-bottom:1px solid #ccc;}
+#footer .contact ul.box{width:50%;float:left;height:50px;line-height:50px;}
+#footer .contact .box .text{font-size:1.2em;padding-right:30px;color:#888;}
+#footer .contact .box .icon{float:left;width:40px;text-align:center;margin-right:20px;}
+#footer .contact .box .icon i{width:100%;height:100%;float: left;padding:10px 0px;cursor:pointer;font-size:1.5em;border-radius:40px;background:rgb(21, 87, 101);}
+#footer .contact .box .icon:hover .fa-facebook{color:rgb( 59, 89, 152);background:#fff;}
+#footer .contact .box .icon:hover .fa-twitter:hover{color:rgb(85, 172, 238);background:#fff;}
+#footer .contact .box .icon:hover .fa-instagram:hover{color:rgb(233, 89, 80);background:#fff;}
+#footer .contact .box .icon:hover .fa-google:hover{color:rgb(221, 75, 57);background:#fff;}
+
+#footer .contact ul.option{width:50%;float:right;}
+#footer .contact .option li{text-align:center;float:right;height:50px;cursor:pointer;color:rgb(21, 87, 101);}
+#footer .contact .option li:hover{color:rgb(73, 132, 147);}
+#footer .contact .option li .icon{float:left;width:100%;}
+#footer .contact .option li .icon i{float: left;width:100%;text-align:center;font-size:1.5em;}
+#footer .contact .option li .name{float:left;text-align:center;width:100%;padding:5px;}
+
+
+#footer .footerBottom{padding:2% 4%;background:#eee;float:left;width:100%;}
+#footer .footerBottom .mainAttraction{width:35%;float:left;background:transparent;}
+#footer .footerBottom ul {width:100%;float:left;}
+#footer .footerBottom ul li{width:100%;float:left;}
+#footer .footerBottom ul li.header{font-size:1.1em;padding-bottom:5px;font-weight:300;color:rgb(21, 87, 101);}
+#footer .footerBottom ul li.attractions a {font-size:0.9em;cursor: pointer;color:#555;}
+#footer .footerBottom .mainAttraction ul li.attractions a:hover{color:rgb(73, 132, 147);}
+
+#footer .footerBottom .contactUs{width:35%;float:left;background:transparent;}
+#footer .footerBottom .contactUs ul li i{padding-right:10px;color:rgb(73, 132, 147);}
+#footer .footerBottom .contactUs ul li{margin-bottom:5px;}
+#footer .footerBottom .contactUs ul li.attractions {font-size:0.9em;cursor: pointer;color:#555;}
+
+#footer .footerBottom .feedback{width:30%;float:right;background:transparent;}
+#footer .footerBottom .feedback ul li span{float:left;width:100%;}
+#footer .footerBottom .feedback ul li{margin-bottom:5px;}
+#footer .footerBottom .feedback ul li.attractions {font-size:0.9em;cursor: pointer;color:#555;}
+#footer .footerBottom .feedback ul li input{width:100%;padding:5px;}
+#footer .footerBottom .feedback ul li textarea{width:100%;min-height:100px;}
+#footer .footerBottom .feedback ul li.button{width:30%;text-align:center;cursor:pointer;padding:5px 10px;float:left;color:#fff;background:rgb(21, 87, 101);}
+#footer .footerBottom .feedback ul li.button:hover{background:rgb(73, 132, 147);}
+
+#footer .bottom{width:100%;float:left;color:#fff;}
+#footer .bottom .top{width:100%;text-align:center;float:left;padding:0.2%;background: rgb(21, 87, 101);color:#aaa;}
+#footer .bottom .top a{color:#aaa;font-size:0.8em;}
+#footer .bottom .top a:hover{color:#ccc;}
+#footer .bottom .bot{width:100%;text-align:center;color:#888;font-size:0.8em;float:left;padding:0.4% 4%;background:rgb(0, 46, 59);}

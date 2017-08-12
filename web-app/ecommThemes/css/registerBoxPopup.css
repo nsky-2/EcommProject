@@ -1,0 +1,20 @@
+#registerBox{top:0;left:0px;font-family:arial,sans-serif;z-index:5000;width:100%;height:100%;display:none;float:left;position:fixed;}
+#registerMask{top:0px;left:0px;float:left;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+#registerBox .register{float:left;position:absolute;background:rgba(255,255,255,0.9 );z-index:5010;margin:0.5% 35%;width:30%;padding:0px;display:none;}
+#registerBox .register .heading{position:relative;float:left;width:100%;background:rgb(21, 87, 101);}
+#registerBox .register .heading .head{float:left;font-size:0.8em; padding:10px;padding-left:20px;font-weight:300;color:#fff;text-transform:uppercase;}
+#registerBox .register .heading .registerClose{float:right;font-size:1em;text-align:center;padding:7.5px 15px;background:rgba(250, 250, 250,0.2);color:#fff;cursor:pointer;}
+#registerBox .register .heading .registerClose:hover{color:#eee;background:rgba(255, 0, 0,0.6);}
+#registerBox .register .registerBody{float:left;width:100%;padding:20px 30px 0px 30px;}
+#registerBox .register .registerBody ul{list-style-type:none;width:100%;float:left;font-size:1em;font-weight:200;margin:0px;padding:0px;}
+#registerBox .register .registerBody ul li{float:left;width:100%;margin-bottom:15px;}
+/*#registerBox .register .registerBody ul .gap{margin-bottom:10px;}*/
+#registerBox .register .registerBody ul .message span{float:left;width:100%;text-align:center;}
+#registerBox .register .registerBody ul .message .big{font-size:1.1em;font-weight:600;color:rgb(73, 132, 147);}
+#registerBox .register .registerBody ul .message .small{font-size:0.8em;font-weight:300;color:#999;}
+#registerBox .register .registerBody ul li input,#registerBox .register .registerBody ul li .title,#registerBox .register .registerBody ul li .country{padding:5px;width:100%;color:#aaa;font-size:1em;}
+#registerBox .register .registerBody ul li.button .btnRegister{color:#fff;text-transform:uppercase;font-size:0.9em;font-weight:200;background:rgb(73, 132, 147);border:1px solid rgb(73, 132, 147);padding:7px 0px;}
+#registerBox .register .registerBody ul li.button .btnRegister:hover{background:rgb(21, 87, 101);}
+#registerBox .register .registerBody ul li.haveAccount{text-align:center;font-size:0.98em;font-weight:200;color:#888;}
+#registerBox .register .registerBody ul li.haveAccount .haveAcc{cursor:pointer;}
+#registerBox .register .registerBody ul li.haveAccount .haveAcc:hover{color:rgb(21, 87, 101);}

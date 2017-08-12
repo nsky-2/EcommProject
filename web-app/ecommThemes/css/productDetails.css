@@ -1,0 +1,69 @@
+.cartBox{display:none;}
+a:hover{text-decoration:none;}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button { -webkit-appearance: none;margin: 0; }
+#productBody{margin-right:4%;margin-top:110px;width:75%;float:right;}
+
+#productDetailBody{width:100%;padding:0% 4%;margin-top:110px;float:left;font-family:arial,sans-serif;}
+#productDetailBody .productInfo{float:left;width:70%;}
+
+#productDetailBody .productInfo1{float:right;width:28%;background:#fff;padding:15px;}
+#productDetailBody .productInfo1 .productName{float:left;font-size:13px;font-weight:600;color:#155765;margin-bottom:15px;}
+#productDetailBody .productInfo1 .product{float:left;width:100%;padding:3px;background:#fff;margin-bottom:5px;}
+#productDetailBody .productInfo1 .product a{float:left;width:100%;border:1px solid #fff;padding:2px;}
+#productDetailBody .productInfo1 .product a:hover{border:1px solid rgb(21, 87, 101);box-shadow:0px 0px 15px 0px #ccc;}
+#productDetailBody .productInfo1 .product .image{float:left;width:40%;height:100px;}
+#productDetailBody .productInfo1 .product .image img{width:100%;height:100%;}
+#productDetailBody .productInfo1 .product .detailInfo{width:60%;float:right;padding:3px 5px;background:#fff;}
+#productDetailBody .productInfo1 .product .detailInfo ul{float:left;width:100%;padding-left:5px;}
+#productDetailBody .productInfo1 .product .detailInfo ul li{width:100%;float:left;height:15px;line-height:15px;}
+#productDetailBody .productInfo1 .product .detailInfo ul .productName{font-size:0.95em;font-weight:400;color:#555;margin-bottom:10px;overflow:hidden;}
+#productDetailBody .productInfo1 .product .detailInfo ul .productPrice{font-size:1.1em;margin-bottom:5px;overflow:hidden;}
+#productDetailBody .productInfo1 .product .detailInfo ul .productDiscount{font-size:0.85em;font-weight:500;color:#999;text-decoration:line-through;}
+#productDetailBody .productInfo1 .product .detailInfo ul .rating{font-size:0.85em;font-weight:500;color:#aaa;}
+
+#productDetailBody .productInfo .productDetail{float:left;width:100%;padding:5px;background:#fff;margin-bottom:10px;}
+#productDetailBody .productInfo .productDetail .productImage{float:left;width:40%;}
+#productDetailBody .productInfo .productDetail .productImage img{width:100%;height:auto;max-height:318px;}
+#productDetailBody .productInfo .productDetail .productInformation{width:40%;float:right;padding:15px;}
+#productDetailBody .productInfo .productDetail .productInformation ul{float:left;width:100%;}
+#productDetailBody .productInfo .productDetail .productInformation ul li{width:100%;float:left;margin-bottom:10px;}
+#productDetailBody .productInfo .productDetail .productInformation ul .productName{font-size:1.2em;font-weight:500;color:rgb(21, 87, 101);}
+#productDetailBody .productInfo .productDetail .productInformation ul .productPrice{font-size:1.3em;}
+#productDetailBody .productInfo .productDetail .productInformation ul .productModel .modelNo{font-weight:600;}
+#productDetailBody .productInfo .productDetail .productInformation ul .productQuantity span.qty{float:left;padding-right:15px;}
+#productDetailBody .productInfo .productDetail .productInformation ul .productQuantity input{width:40px;float:left;padding:2px 5px;font-size:1em;color:#555;font-weight:600;text-align:center;}
+#productDetailBody .productInfo .productDetail .productInformation ul .productQuantity span.fa{background:#ddd;font-size:1.3em;font-weight:600;cursor:pointer;padding:3px 10px;border:2px solid #ddd;color:rgb(21, 87, 101);}
+#productDetailBody .productInfo .productDetail .productInformation ul .productQuantity span.minus{float:left;}
+#productDetailBody .productInfo .productDetail .productInformation ul .productQuantity span.fa:hover{background:#ccc;border:2px solid #ccc;}
+#productDetailBody .productInfo .productDetail .productInformation ul .addToCart{margin-right:20px;width:110px;background:rgb(21, 87, 101);cursor:pointer;text-align:center;padding:5px;}
+#productDetailBody .productInfo .productDetail .productInformation ul .addToCart a{color:#fff;}
+#productDetailBody .productInfo .productDetail .productInformation ul .addToCart a i,#productDetailBody .productInfo .productDetail .productInformation ul .buyProduct a i{margin-right:8px;}
+#productDetailBody .productInfo .productDetail .productInformation ul .addToCart:hover{background:rgb(73, 132, 147);}
+#productDetailBody .productInfo .productDetail .productInformation ul .buyProduct{width:110px;background:rgb(83, 198, 140);cursor:pointer;text-align:center;padding:5px;}
+#productDetailBody .productInfo .productDetail .productInformation ul .buyProduct a{color:#fff;}
+#productDetailBody .productInfo .productDetail .productInformation ul .buyProduct:hover{background:rgb(121, 210, 166);}
+#productDetailBody .productInfo .productDetail .productInformation ul .wishList a{color:#155765;cursor:pointer;}
+#productDetailBody .productInfo .productDetail .productInformation ul .wishList a:hover{color:#2391a9;text-decoration:none;}
+#productDetailBody .productInfo .productDetail .productInformation ul .rateProduct .rate{font-size:15px;}
+
+#productDetailBody .productInfo .productDescription{float:left;width:100%;padding:20px;background:#fff;margin-bottom:10px;}
+#productDetailBody .productInfo .productDescription ul{float:left;width:100%;}
+#productDetailBody .productInfo .productDescription ul li{width:100%;float:left;margin-bottom:10px;}
+#productDetailBody .productInfo .productDescription ul .productName{font-size:13px;font-weight:600;color:#155765;}
+#productDetailBody .productInfo .productDescription ul .rate{font-size:17px;}
+#productDetailBody .productInfo .productDescription ul .rate .rates{font-size:25px;margin-left:5px;}
+
+#productDetailBody .productInfo .productReview{float:left;width:100%;padding:20px;background:#fff;margin-bottom:10px;}
+#productDetailBody .productInfo .productReview ul{float:left;width:100%;}
+#productDetailBody .productInfo .productReview ul li{width:100%;float:left;margin-bottom:15px;}
+#productDetailBody .productInfo .productReview ul .productName{font-size:13px;font-weight:600;color:#155765;}
+#productDetailBody .productInfo .productReview ul .userReview .userReviewBody{float:left;width:100%;background:#f5f5f5;padding:3px 5px;}
+#productDetailBody .productInfo .productReview ul .userReview .userReviewBody .header{width:100%;float:left;margin-bottom:3px;}
+#productDetailBody .productInfo .productReview ul .userReview .userReviewBody .header .userName{float:left;font-weight:600;font-size:12px;color:#555;}
+#productDetailBody .productInfo .productReview ul .userReview .userReviewBody .header .postDate{float:right;font-size:12px;color:#999;}
+#productDetailBody .productInfo .productReview ul .userReview .userReviewBody .userBody{float:left;width:100%;padding:3px;background:#eee;border-radius:5px;margin-bottom:3px;}
+#productDetailBody .productInfo .productReview ul .comment input{width:93.5%;padding:5px;}
+#productDetailBody .productInfo .productReview ul .comment .commentButton{float:right; width:6.5%;}
+#productDetailBody .productInfo .productReview ul .comment .commentButton .btnn{float:left;color:#fff;text-align:center;padding:7px 20px;background:#155765;}
+#productDetailBody .productInfo .productReview ul .comment .commentButton:hover .btnn{background:#999;}
+

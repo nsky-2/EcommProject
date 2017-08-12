@@ -1,0 +1,86 @@
+#header{border-bottom:1px solid #eee;box-shadow:0px 0px 5px 0px #aaa;position:fixed;top:0;z-index:2000;font-family:arial,sans-serif;width:100%;padding:0 4%;background:#fff;float:left;}
+#header .headTopWrap,#header .headBotWrap{width:100%;float:left;font-size:13px;}
+#header .headTopWrap ul li{display:inline;margin-right:8px;}
+#header .headTopWrap .contact ul li{float:left;position:relative;padding:0.5% 0%;cursor:pointer;}
+#header .headTopWrap .contact ul li i{color:#79d2a6;}
+#header .headTopWrap .socialIcons{float:right;}
+#header .headTopWrap .socialIcons ul li{float:left;width:25px;text-align:center;position:relative;background:transparent;}
+#header .headTopWrap .socialIcons ul li a i{width:100%;padding:5px 0;}
+#header .headTopWrap .socialIcons ul li .fa-facebook{color:#0083C9;}
+#header .headTopWrap .socialIcons ul li .fa-twitter{color:#5BBCEC;}
+#header .headTopWrap .socialIcons ul li .fa-google-plus{color:#CE3C2D;}
+#header .headTopWrap .socialIcons ul li .fa-linkedin{color:#FF4518;}
+#header .headTopWrap .socialIcons ul li .fa-youtube-play{color:#e52d27;}
+#header .headTopWrap .socialIcons ul li a i.fa-facebook:hover{color:#fff;background:#0083C9;}
+#header .headTopWrap .socialIcons ul li a i.fa-twitter:hover{color:#fff;background:#5BBCEC;}
+#header .headTopWrap .socialIcons ul li a i.fa-google-plus:hover{color:#fff;background:#CE3C2D;}
+#header .headTopWrap .socialIcons ul li a i.fa-linkedin:hover{color:#fff;background:#FF4518;}
+#header .headTopWrap .socialIcons ul li a i.fa-youtube-play:hover{color:#fff;background	:#e52d27;}
+
+#header .headBotWrap{padding:15px 0px;height:70px;}
+#header .headBotWrap .logo{float:left;width:300px;}
+#header .headBotWrap .logo img{width:100%;height:100%;cursor:pointer;line-height:30px;}
+#header .headBotWrap .sidebarIcon{display:none;float:left;font-size:1.5em;margin-left:10px;line-height:40px;color:#aaa;}
+#header .headBotWrap .sidebarIcon span{cursor:pointer;padding:2px 5px;border-radius:5px;}
+#header .headBotWrap .sidebarIcon span:hover,#header .headBotWrap .sidebarIcon span.active{color:#888;background:#eee;}
+#header .headBotWrap .search{float:left;width:35%;margin-left:3%;}
+#header .headBotWrap .search .awesomplete{position:relative;width:100%;float:left;}
+#header .headBotWrap .search .awesomplete .awesomplete{border:1px solid #aaa;width:100%;padding:6px;border-right:none;float:left;font-size:1.1em;color:#888;}
+#header .headBotWrap .search .awesomplete ul{margin-top:35px;z-index:1000;}
+#header .headBotWrap .search button{position:absolute;float:left;padding:7px 15px;color:rgb(21, 87, 101);border:1px solid #aaa;border-left:none;background:#fff;margin-right:38px;}
+#header .headBotWrap .search button:hover{color:rgb(73, 132, 147);}
+#header .headBotWrap .menu{float:right;}
+#header .headBotWrap .menu ul{float:left;}
+#header .headBotWrap .menu ul li{padding:6.5px 7px;display:inline;float:left;font-size:0.89em;font-weight:600;text-transform:uppercase;color:#444;}
+#header .headBotWrap .menu ul li i{padding:4px;color:rgb(21, 87, 101);font-size:1em;}
+#header .headBotWrap .menu ul li a:hover{color:rgb(73, 132, 147);cursor:pointer;}
+#header .headBotWrap .menu ul li.cart{padding-top:0px;}
+#header .headBotWrap .menu ul li a .shopping img{width:34px;background:#f5f5f5;border-radius: 5px;}
+#header .headBotWrap .menu ul li:hover a .shopping img{background:#eee;}
+
+#header .headBotWrap .menu ul li.welcome{cursor:pointer;position:relative;text-transform:none;font-size:0.89em;}
+#header .headBotWrap .menu ul li.welcome:hover{color:#fff;background:rgb(21, 87, 101);}
+#header .headBotWrap .menu ul li.welcome:hover i{color: #fff;}
+#header .headBotWrap .menu ul li.welcome i{padding-left:5px;float:right;line-height:8px;}
+#header .headBotWrap .menu ul li.welcome .down{border:1px solid rgb(21, 87, 101);display:none;float:left;position:absolute;margin-top:6px;margin-left:-7px;z-index:1200;width:200px;}
+#header .headBotWrap .menu ul li.welcome .down .dropdown{float:left;width:100%;background:#fff;padding:10px 0px;}
+#header .headBotWrap .menu ul li.welcome .down .dropdown li{cursor:pointer;text-transform:none;width:100%;float:left;padding:0px;}
+#header .headBotWrap .menu ul li.welcome .down .dropdown li a{width:100%;float:left; color:rgb(21, 87, 101);font-size:1.2em;padding:8px 10px;font-weight:500;}
+#header .headBotWrap .menu ul li.welcome .down .dropdown li a i{float:left;margin-right:5px;color:rgb(21, 87, 101);}
+#header .headBotWrap .menu ul li.welcome .down .dropdown li:hover a{background:rgb(73, 132, 147);color:#fff;}
+#header .headBotWrap .menu ul li.welcome .down .dropdown li:hover a i{color:#fff;}
+
+#header .headBotWrap .menu ul li.order{cursor:pointer;position:relative;font-size:0.89em;}
+#header .headBotWrap .menu ul li.order:hover{color:#fff;background:rgb(21, 87, 101);}
+#header .headBotWrap .menu ul li.order:hover i{color:#fff;}
+#header .headBotWrap .menu ul li.order i.fa-caret-down{padding-left:5px;float:right;line-height:8px;}
+#header .headBotWrap .menu ul li.order .down{border:1px solid rgb(21, 87, 101);display:none;float:left;position:absolute;margin-top:6px;margin-left:-7px;z-index:1200;width:200px;}
+#header .headBotWrap .menu ul li.order .down .dropdown{float:left;width:100%;background:#fff;padding:10px 0px;}
+#header .headBotWrap .menu ul li.order .down .dropdown li{cursor:pointer;text-transform:none;width:100%;float:left;padding:0px;}
+#header .headBotWrap .menu ul li.order .down .dropdown li a{width:100%;float:left; color:rgb(21, 87, 101);font-size:1.2em;padding:8px 10px;font-weight:500;}
+#header .headBotWrap .menu ul li.order .down .dropdown li a i{float:left;margin-right:5px;color:rgb(21, 87, 101);}
+#header .headBotWrap .menu ul li.order .down .dropdown li:hover a{background:rgb(73, 132, 147);color:#fff;}
+#header .headBotWrap .menu ul li.order .down .dropdown li:hover a i{color:#fff;}
+
+
+a.back-to-top {
+    display: none;
+    width: 40px;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    font-size: 1.3em;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background:rgba(21, 87, 101,0.9);
+    color:#fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border:1px solid rgb(73, 132, 147);
+}
+a:hover.back-to-top {
+    background:rgb(21, 87, 101);
+}

@@ -1,0 +1,32 @@
+#loginBox{top:0;left:0px;font-family:arial,sans-serif;z-index:5000;width:100%;height:100%;display:none;float:left;position:fixed;}
+#topMask{top:0px;left:0px;float:left;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+#login1{position:absolute;background:rgba(255,255,255,0.9 );z-index:5010;margin:10% 25%;width:50%;padding:0px;display:none;}
+#login1 .heading{position:relative;float:left;width:100%;background:rgb(21, 87, 101);}
+#login1 .heading .head{float:left;font-size:0.8em; padding:10px;padding-left:20px;font-weight:300;color:#fff;text-transform:uppercase;}
+#login1 .heading .logClose{float:right;font-size:1em;text-align:center;padding:7.5px 15px;background:rgba(250, 250, 250,0.2);color:#fff;cursor:pointer;}
+#login1 .heading .logClose:hover{color:#eee;background:rgba(255, 0, 0,0.6);}
+#login1 .logBody{float:left;width:100%;}
+#login1 .logBody .bodyLeft{float:left;width:50%;padding:20px 35px;font-size:1em;font-weight:200;border-right:1px solid rgba(0, 46, 59,0.2);}
+#login1 .logBody .bodyLeft li{margin-bottom:10px;}
+#login1 .logBody .bodyLeft li.email{margin-bottom:20px;}
+#login1 .logBody .bodyLeft li input{padding:5px;width:100%;color:#aaa;font-size:1em;}
+#login1 .logBody .bodyLeft li.forgetPwd{margin-top:20px;color:#888;font-size:0.9em;font-weight:200;}
+#login1 .logBody .bodyLeft li.forgetPwd span{cursor:pointer;}
+#login1 .logBody .bodyLeft li.forgetPwd span:hover{color:#555;}
+#login1 .logBody .bodyLeft li.button{margin-top:20px;}
+#login1 .logBody .bodyLeft li.button .btnlogin{color:#fff;text-transform:uppercase;font-size:0.9em;font-weight:200;background:rgb(73, 132, 147);border:1px solid rgb(73, 132, 147);padding:7px 0px;}
+#login1 .logBody .bodyLeft li.button .btnlogin:hover{background:rgb(21, 87, 101);}
+#login1 .logBody .bodyRight{float:right;width:50%;padding:20px 35px;padding-top:60px;font-size:1em;font-weight:300;}
+#login1 .logBody .bodyRight ul{width:100%;margin:0px;padding:0px;float:left;text-align:center;}
+#login1 .logBody .bodyRight ul li{width:100%;float:left;margin-bottom:10px;}
+#login1 .logBody .bodyRight ul .logOr{width:100%;font-size:1.1em;font-weight:700;float:left;text-align: center;}
+#login1 .logBody .bodyRight ul .login{width:100%;font-size:0.9em;color:#888;}
+#login1 .logBody .bodyRight ul .social{padding:10px;font-size:40px;}
+#login1 .logBody .bodyRight ul .social i{cursor:pointer;}
+#login1 .logBody .bodyRight ul .social .fa-facebook-square:hover{color:#324b81;}
+#login1 .logBody .bodyRight ul .facebook{color:#3b5998;}
+#login1 .logBody .bodyRight ul .google{color:#d34836;}
+#login1 .logBody .bodyRight ul .social .fa-google-plus-square:hover{color:#bc3a29;}
+#login1 .logBody .bodyRight ul .logNoAcc{width:100%;margin-top:30px;color:#888;}
+#login1 .logBody .bodyRight ul .logNoAcc .logRegHere{color:rgb(0,136,204);cursor:pointer;}
+#login1 .logBody .bodyRight ul .logNoAcc .logRegHere:hover{text-decoration:underline;color:rgb(0, 170, 255);}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 1300px){
+    #sidebar{margin-left:10px;}
+    #productBody{margin-right:10px;width:80%;text-align: center;}
+}
+@media screen and (max-width: 1100px){
+    #sidebar{display:none;}
+    #header .bars{display:inline-block;}
+    #productBody{padding:0px 5px 10px 20px;width:100%;}
+}
+#header .bars{display:none;cursor:pointer;float:left;padding:5px;font-size:1.2em;color:#777;margin-right:10px;}
+#header .bars:hover{color:#222;}
+#header .logo{padding-top:3px;}
+ul,ol{padding:0px;margin:0px;list-style-type:none;}

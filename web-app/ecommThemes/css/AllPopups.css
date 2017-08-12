@@ -1,0 +1,8 @@
+#popCart,#popWish,#popAlreadyInCart,#popAlreadyInWish{width:100%;display:none;position:fixed;color:#fff;background:rgba(21, 87, 101,0.95);top:0px;left:0px;z-index:3000;border-bottom:#eee;box-shadow:0px 0px 5px 0px #222;}
+#popCart .cartIcon,#popWish .cartIcon,#popAlreadyInCart .cartIcon,#popAlreadyInWish .cartIcon{position:absolute;float:right;font-size:1.8em;color:#fff;}
+#popCart .cartMessage,#popWish .cartMessage,#popAlreadyInCart .cartMessage,#popAlreadyInWish .cartMessage{width:95%;float:left;padding:8px;text-align:center;}
+#popCart a,#popWish a,#popAlreadyInCart a,#popAlreadyInWish a{color:rgb(0,136,204);text-decoration:none;padding:2px;border:2px solid #fff;border-radius:5px; }
+#popCart a:hover,#popWish a:hover,#popAlreadyInCart a:hover,#popAlreadyInWish a:hover{color:#fff;}
+#popCart .cartPopClose,#popWish .cartPopClose,#popAlreadyInCart .cartPopClose,#popAlreadyInWish .cartPopClose{cursor:pointer;float:right;font-weight:200;text-align:right;padding:8px 10px;color:#555;background:rgba(250,250,250,0.8);opacity:0.2;transition:0.5s;}
+#popCart .cartPopClose:hover,#popWish .cartPopClose:hover,#popAlreadyInCart .cartPopClose:hover,#popAlreadyInWish .cartPopClose:hover{opacity:0.9;}
+#loginBox{position:fixed;}

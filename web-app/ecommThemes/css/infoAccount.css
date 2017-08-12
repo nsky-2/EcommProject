@@ -1,0 +1,106 @@
+#mainBody{width:100%;padding:0% 4%;margin-top:110px;float:right;font-family:arial,sans-serif;}
+
+#breadcrumbs{float:left;width:100%;padding:5px;font-size:0.85em;font-weight:100;}
+#breadcrumbs span{cursor:pointer;}
+#breadcrumbs .home{color:rgb(0, 46, 59);}
+#breadcrumbs .icon{padding: 0px 3px;}
+#breadcrumbs .first{color:rgb(21, 87, 101);}
+#breadcrumbs .second{color:rgb(73, 132, 147);}
+
+#tabName{width:100%;float:left;font-size:1.2em;font-weight:600;color:rgb(21, 87, 101);padding:10px 5px 30px 5px;}
+
+#tabBody{width:100%;float:left;background:#fff;border:1px solid #bdbdbd;}
+
+#tabBody .tabHeader{width:100%;float:left;padding:0px;margin:0px;background:#f5f5f5;}
+#tabBody .tabHeader li{border-bottom:1px solid #bdbdbd;cursor:pointer;list-style-type:none;font-size:0.8em;color:#555;background:#f5f5f5;font-weight:600;border-right:1px solid #bdbddb;float:left;padding:7px 40px;text-align:center;}
+#tabBody .tabHeader li:hover{border-bottom:none;color:rgb(73, 132, 147);background:#fff;}
+#tabBody .tabHeader li.active{border-bottom:none;color:rgb(73, 132, 147);background:#fff;}
+#tabBody .tab.active{display:block;}
+
+#tabBody .tab{display:none;width:100%;float:left;padding:25px;background:#fff;}
+
+#personalInfo{width:50%;float:left;}
+#tabBody .header{width:70%;float:left;overflow:hidden;font-size:1.1em;font-weight:600;color:rgb(21, 87, 101);padding-bottom:5px;border-bottom:1px solid #dbdbdb;}
+
+#personalInfo .info{width:70%;float:left;list-style-type:none;padding:10px 0px;}
+#personalInfo .info li{padding:3px 0px;}
+#personalInfo .info li .name{font-size:0.85em;font-weight:400;}
+#personalInfo .info li .tag{font-size:0.85em;font-weight:600;}
+
+#personalInfo .editTab{float:left;width:100%;font-size:0.8em;font-weight:600;}
+#personalInfo .editTab span a{margin-right:10px;color:rgb(73, 132, 147);}
+#personalInfo .editTab .edit a,#personalInfo .editTab .changePwd{cursor: pointer;}
+#personalInfo .editTab .edit a:hover,#personalInfo .editTab .changePwd:hover{color:rgb(21, 87, 101);color:rgb(73, 132, 147);}
+
+/*submitLink:focus {*/
+    /*outline: none;*/
+/*}*/
+
+#editPersonalInfo{float:left;width:60%;display:none;}
+
+#changePassword{float:left;display:none;float:right;width:50%;overflow:hidden;}
+#tabBody .tab .info{width:100%;float:left;list-style-type:none;padding:12px 0px;}
+#tabBody .tab .info li{padding:1px 0px;}
+#tabBody .tab .info li .name{font-size:0.85em;font-weight:400;}
+#tabBody .tab .info li .input{padding-bottom:10px;width:100%;float:left;}
+#tabBody .tab .info li .input input{width:70%;padding:5px;color:#666;font-size:0.9em;}
+#tabBody .tab .info li .tag{font-size:0.85em;font-weight:600;}
+
+#tabBody .tab .editTab{float:left;width:100%;font-size:0.8em;font-weight:600;}
+#tabBody .tab .editTab span{margin-right:10px;color:rgb(73, 132, 147);}
+#tabBody .tab .editTab .edit,#tabBody .tab .editTab .changePwd{cursor: pointer;}
+#tabBody .tab .editTab .edit:hover{color:#79d2a6;}
+#tabBody .tab .editTab .changePwd:hover{color:rgb(204,50, 100);}
+
+#orderHistory{width:100%;float:left;}
+#orderHistory .tableWrapper{width:100%;float:left;margin-top:20px;}
+#orderHistory .tableWrapper table{width:100%;float:left;}
+#orderHistory .tableWrapper table tr th{font-size:0.9em;padding:5px 0px;background:#f5f5f5;color:#555;}
+#orderHistory .tableWrapper table tr td{font-size:0.95em;padding:15px 0px;border-bottom:1px solid #dbdbdb;}
+#orderHistory .tableWrapper table tr .id{text-align: center;width:50px;}
+#orderHistory .tableWrapper table tr .orderId{text-align:center;}
+#orderHistory .tableWrapper table tr .agent{width:150px;}
+#orderHistory .tableWrapper table tr .productImage img{width:60px;height:auto;}
+#orderHistory .tableWrapper table tr .delete a{text-align:center;border-radius:5px;color:#c98a83;padding:20px;cursor: pointer;}
+#orderHistory .tableWrapper table tr .delete a:hover{background:#c98a83;color:#fff;}
+#orderHistory .tableWrapper table tr .total{padding: 5px;font-size: 14px;color:#555;font-weight:600;}
+#orderHistory .tableWrapper table tr .grandTotal{text-align:center;background:#9fdfbf; color: #fff;}
+#orderHistory .tableWrapper table tr .checkout{background:#79d2a6;text-align:center;}
+#orderHistory .tableWrapper table tr .checkout:hover{background:#66cc99;}
+#orderHistory .tableWrapper table tr .checkout a{color:#fff;}
+
+#noOrderHistory{width:100%;float:left;margin-bottom: 20px;}
+#noOrderHistory .bodyMain{width:40%;margin-left:30%;border:1px solid #dbdbdb;float:left;}
+#noOrderHistory .bodyMain img{width:60%; height:auto;margin-left:20%;}
+#noOrderHistory .bodyMain .textBig{float:left;width:100%;padding:5px;text-align:center;color:rgb(21, 87, 101);font-size:1.5em;font-weight:400;}
+#noOrderHistory .bodyMain .textMid{float:left;width:100%;text-align:center;color:#777;font-size:1em;font-weight:300;}
+#noOrderHistory .bodyMain .textBot{float:left;width:100%;text-align:center;color:#999;font-size:0.9em;font-weight:200;}
+#noOrderHistory .bodyMain .btn{padding:2% 25%;float:left;width:100%;}
+#noOrderHistory .bodyMain .btn span{float:left;padding:5px;width:100%;color:#fff;background:rgb(21, 87, 101);}
+#noOrderHistory .bodyMain .btn span:hover{background:rgb(73, 132, 147);}
+
+.trackOrder{width:40%;margin-left:30%;float:left;border:1px solid #dbdbdb;padding:5px;padding-bottom: 20px;}
+.trackOrder img{width:100%;float:left;}
+.trackOrder .message{color: rgb(73, 132, 147); float:left;width:100%;padding:20px;font-weight:600;font-size:1.2em;}
+.trackOrder .orderId {float: left;width:100%;padding:0px 20px;margin-bottom:20px;}
+.trackOrder .orderId span{float: left;margin-bottom:5px;width:100%;font-size:0.87em;font-weight:600;}
+.trackOrder .orderId input{float:left;width:100%;padding:3px 5px;}
+.trackOrder .btnTrack{float:left;width:100%;padding:6px 20px;text-transform: uppercase;}
+.trackOrder .btnTrack span{width:100%;float:left;padding:5px;background:rgb(73, 132, 147);color:#fff;text-align:center;}
+.trackOrder .btnTrack span:hover{background:rgb(73, 132, 147);}
+
+#tabBody .contactUs{float:left;width:50%;}
+#tabBody .contactUs .info  .input select{width:70%;padding:5px;color:#666;font-size:0.9em;}
+#tabBody .contactUs .info  .input textarea{width:70%;min-height:100px;padding:5px;color:#666;font-size:0.9em;}
+#tabBody .contactUs .info .button .btn{text-transform:uppercase;color:#fff;float:left;padding:5px 10px;background:rgb(21, 87, 101);}
+#tabBody .contactUs .info .button .btn:hover{background:rgb(73, 132, 147);}
+
+#tabBody .infoMessage{float:right;width:50%;padding-top:100px;}
+#tabBody .infoMessage .innerBox{padding:15px;float:left;font-size:0.9em;color:#999;font-weight:200;border:1px solid #dbdbdb;}
+
+#tabBody .addressInfo{float:left;width:50%;}
+#tabBody .addressInfo .message{width:100%;float:left;font-size:0.85em;font-weight:200;color:#79d2a6;}
+#tabBody .addressInfo .changeAddress{width:100%;float:left;font-size:0.80em;cursor:pointer;padding:10px 0px;font-weight:600;color:rgb(21, 87, 101);}
+#tabBody .addressInfo .changeAddress:hover{color:rgb(73, 132, 147);}
+
+#tabBody .addressNew{float:left;width:50%;display: none;}

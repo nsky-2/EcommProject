@@ -1,0 +1,35 @@
+a{color:#333;}
+#cartBodyWrap{float:left;width:100%;padding:0% 4%;margin-top:110px;font-family:arial,sans-serif;}
+.cartWrapper{float:left;width:70%;}
+.cartWrapper .header{float:left;width:100%;font-size:1em;padding:10px 0px 20px 5px;font-weight:600;color:#155765;}
+.cartWrapper .tableWrapper{width:100%;padding:20px;float:left;background:#fff;}
+.cartWrapper .tableWrapper table{width:100%;float:left;}
+.cartWrapper .tableWrapper table tr th{padding: 10px;background:#f5f5f5;font-size:0.90em;font-weight:600;color:rgb(21, 87, 101);}
+.cartWrapper .tableWrapper table tr td{padding: 15px 10px;border-bottom:1px solid #f5f5f5;}
+.cartWrapper .tableWrapper table tr:last-child td{background:#eee;padding:5px; border-bottom:none;}
+.cartWrapper .tableWrapper table tr .productImage img{width:100px;height:auto;}
+.cartWrapper .tableWrapper table tr .delete{width:150px;text-align:center;}
+.cartWrapper .tableWrapper table tr .delete a{margin-right:5px;border:1px solid #fff;text-align:center;border-radius:5px;color:#c98a83;padding:15px;cursor: pointer;}
+.cartWrapper .tableWrapper table tr .delete a:hover{border:1px solid #c98a83;box-shadow:0px 0px 10px 0px #ccc;  }
+.cartWrapper .tableWrapper table tr .delete a.wish{color:#79d2a6;}
+.cartWrapper .tableWrapper table tr .delete a.wish:hover{border:1px solid #79d2a6;;}
+.cartWrapper .tableWrapper table tr:last-child .total{padding: 5px;font-size: 14px;text-align:center;background:#9fdfbf;color:#fff;font-weight:600;}
+.cartWrapper .tableWrapper table tr:last-child .grandTotal{text-align:left;padding:0px 10px;background:#79d2a6; color: #fff;}
+
+.cartWrapper .tableWrapper table tr td.quantity input{width:40px;float:left;padding:2px 5px;font-size:1em;color:#555;font-weight:600;text-align:center;}
+.cartWrapper .tableWrapper table tr td.quantity span.fa{font-size:1.3em;font-weight:600;cursor:pointer;padding:5px;color:rgb(21, 87, 101);}
+.cartWrapper .tableWrapper table tr td.quantity span.minus{float:left;}
+.cartWrapper .tableWrapper table tr td.quantity span.fa:hover{background:#eee;}
+
+#cartBodyWrap .orderSummary{width:28%;float:right;padding:10px;background:#fff;margin-top:77px;}
+#cartBodyWrap .orderSummary .name{float:left;padding-bottom:10px;width:100%;font-size:1em;font-weight:600;color:rgb(21, 87, 101);}
+#cartBodyWrap .orderSummary .order{width:100%;float:left;list-style-type:none;padding:5px;}
+#cartBodyWrap .orderSummary .order li{margin-bottom:10px; font-size:1.1em;font-weight:400;color:#555;}
+#cartBodyWrap .orderSummary .order .product{width:60%;float:left;overflow:hidden;}
+#cartBodyWrap .orderSummary .order .price{width:40%;padding-left:5px;float:right;overflow:hidden;}
+#cartBodyWrap .orderSummary .bottom{margin-top:10px;padding:5px 10px;background:rgb(73, 132, 147);color:#fff;width:100%;float:left;}
+#cartBodyWrap .orderSummary .bottom .total{width:60%;float:left;}
+#cartBodyWrap .orderSummary .bottom .price{width:40%;padding: 0px 5px;float:right;}
+#cartBodyWrap .orderSummary .checkout{margin-top:20px;float:left;width:100%;}
+#cartBodyWrap .orderSummary .checkout:hover{background:#66cc99;}
+#cartBodyWrap .orderSummary .checkout a{color:#fff;width:100%;float:left;padding:5px;background:#79d2a6;text-align:center;}

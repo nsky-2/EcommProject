@@ -1,0 +1,7 @@
+body{padding:0px;margin:0px;background:#f9f9f9;color:#333;font-family:'Roboto', sans-serif;}
+#error{float:left;width:90%;padding:5%;text-align:center;background:#fff}
+#error .icon,#error .oops,#error .message,#error .btn{float:left;width:100%;padding:2px 0px;text-align:center;font-size:80px;font-weight:600;color:#79d2a6;}
+#error .oops{font-size:25px;font-weight:600;color:#555;}
+#error .message{font-size:15px;font-weight:500;color:#555;margin-bottom:15px;}
+#error .btn a.btnbtn{text-decoration:none;cursor:pointer;font-size:15px;border:1px solid #0088cc;padding:10px;font-weight:600;color:#fff;background:#0088cc;}
+#error .btn .btnbtn:hover{color:#0088cc;background:#fff;}

@@ -1,0 +1,48 @@
+#sidebar{margin-left: 4%;margin-top: 10px;}
+
+#header .headBottomWrap{width:100%;float:left;font-size:13px; display:none;}
+
+
+#image_slider{ position:relative;  float:left;  width:100%;  }
+@media screen and (max-width: 1300px){
+    #productBody{position:relative;float:right;width:79%;margin-right:15px;}
+    #sidebar{margin-left:15px;}
+    #header .headBotWrap .search .awesomplete{width:80%;}
+}
+@media screen and (max-width: 1200px){
+    #productBody{position:relative;float:right;width:75%;margin-right:15px;}
+    #sidebar{margin-left:15px;}
+}
+@media screen and (max-width: 1015px){
+    #productBody{position:relative;float:right;width:70%;margin-right:15px;}
+    #sidebar{margin-left:15px; }
+    #header .headTopWrap .contact{display:none;}
+    #header .headTopWrap .socialIcons{float:left;}
+    #header .headBotWrap .menu ul li a span.text{display:none;}
+    #header .headBotWrap .menu ul li a{float: left;}
+    #header .headBotWrap .menu ul li{padding-top: 10px;}
+    #header .headBotWrap .menu ul li.welcome{padding-top:15px;}
+    #header .headBotWrap .menu ul li i{font-size:25px;}
+    #header .headBotWrap .menu ul li i:hover{color:#0088cc;}
+}
+@media screen and (max-width: 900px){
+    #productBody{position:relative;float:left;width:96%;margin:0px 15px;}
+    #sidebar{display:none;}
+    #header .headTopWrap{display: none;}
+    #header .headBottomWrap{display:block;}
+    #header .headBotWrap .search{display:none;}
+    #header .headBottomWrap .search{float:right;width:80%}
+    #header .headBottomWrap .search .awesomplete{width:80%;float:right;}
+    #header .headBottomWrap .search .awesomplete .awesomplete{width:100%;padding:5px;float:right;font-size: 13px;color:#888;}
+    #header .headBottomWrap .search .awesomplete ul{margin-top:35px;z-index:1000;}
+    #header .headBottomWrap .search button{padding:6px 10px;float:right;background:#155765;color:#fff;border:1px solid #999;}
+    #header .headBottomWrap .search button:hover{background: #1a6c7f;}
+}
+@media screen and (max-width: 900px){
+    #header .headBotWrap .logo{width:200px;}
+}
+.productHeaderName{font-size:13px;font-weight:600;text-transform:uppercase;color:#155765;width:100%;margin:20px 0px;float:left;}
+.productHeaderName span{padding:10px;width:200px;float:left; background: #fff;}
+.productHeaderName span i{float:right;font-size:17px;}
+
+#product { position:relative;overflow:hidden;margin-top:15px;margin-bottom:40px;width:100%;float:left;padding:0.5%;background-color:#fff;display:block;}
