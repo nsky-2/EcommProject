@@ -51,19 +51,31 @@
                 <li class="price">?? ${(cartList?.getAt('productPrice'))}</li>
             </ul>
         </g:each>
-        <div class="bottom"><span class="total">Total</span><span class="price">?? 3245235</span></div>
-        <div class="orderDate">Ordered Date<span>2017/05/23 11:23PM</span></div>
-        <div class="orderStatus">Ordered Status<span>Pending</span></div>
+        <div class="bottom"><span class="total">Total</span><span class="price">?? ${grandTotal}</span></div>
+        <div class="orderDate">Ordered Date<span>${order[0]?.orderedPlacedDate}</span></div>
+        <div class="orderStatus">Ordered Status<span>${order[0]?.status}</span></div>
         <div class="agentName">
             Agent Detail
+            <g:if test="${order?.user.size()==0}">
             <ul>
                 <li class="names">Name</li>
-                <li class="info">Agent Name</li>
+                <li class="info">${order?.user[0]?.fullname}</li>
                 <li class="names">Contact No.</li>
-                <li class="info"> 97429743</li>
+                <li class="info"> ${order?.user[0]?.contactNo}</li>
                 <li class="names"> E-mail</li>
-                <li class="info"> something@gmail.com</li>
+                <li class="info">${order?.user[0]?.emailID}</li>
             </ul>
+            </g:if>
+            <g:else>
+                <ul>
+                    <li class="names">Name</li>
+                    <li class="info">N/A</li>
+                    <li class="names">Contact No.</li>
+                    <li class="info"> N/A</li>
+                    <li class="names"> E-mail</li>
+                    <li class="info">N/A</li>
+                </ul>
+            </g:else>
         </div>
     </div>
 </div>

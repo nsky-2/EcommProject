@@ -1,4 +1,4 @@
-<%@ page import="HMEcomm.Cart; HMEcomm.Product" %>
+<%@ page import="HMEcomm.Cart; HMEcomm.Product; himalayanecomm.EcommService;himalayanecomm.CartService" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -140,6 +140,26 @@
                             src="${request.contextPath}/ecommThemes/images/cart1.png" alt=""/></span></a>
                     <ul class="cartDrop">
                         <span class="fa fa-caret-up"></span>
+                        <g:if test="${session?.user}">
+                            <g:if test="${cartListSize==0}">
+                            <li class="noItem">
+                                <span class="sadImage">
+                                    <img  src="${request.contextPath}/ecommThemes/images/sad.jpg" alt="">
+                                </span>
+                                <span class="detail">
+                                    <span class="head">Sorry User</span>
+                                    <span class="body">You have no item added to your list.</span>
+                                </span>
+                            </li>
+                            </g:if>
+                            <g:else>
+                                <%
+                                    CartService cartService = new CartService()
+                                    def carts=cartService.cartListForUser(session?.user)
+                                    EcommService ecommService = new EcommService()
+                                    def itemListCart=ecommService.itemsInCartList(carts)
+                                %>
+
                         <g:each in="${(itemListCart)}" var="cartList" status="i">
                             <li class="cartItem">
                                 <span class="image">
@@ -151,22 +171,26 @@
                                 </span>
                             </li>
                         </g:each>
-                        <li class="noItem">
-                            <span class="sadImage">
-                                <img  src="${request.contextPath}/ecommThemes/images/sad.jpg" alt="">
-                            </span>
-                            <span class="detail">
-                                <span class="head">Sorry User</span>
-                                <span class="body">You have no item added to your list.</span>
-                            </span>
-                        </li>
+
                         <li class="viewAll" title="View Cart List">
                             <a href="#"
                                onclick="addToCart('cart', null, '${g.createLink(controller:'cart',action:'checkCartList')}')"
                             ><span>View All</span>
                             </a>
                         </li>
-
+                            </g:else>
+                        </g:if>
+                        <g:else>
+                            <li class="noItem">
+                                <span class="sadImage">
+                                    <img  src="${request.contextPath}/ecommThemes/images/sad.jpg" alt="">
+                                </span>
+                                <span class="detail">
+                                    <span class="head">Not Logged In</span>
+                                    <span class="body">Please Log in for more features.</span>
+                                </span>
+                            </li>
+                        </g:else>
                     </ul>
                 </li>
             </ul>
