@@ -1,5 +1,6 @@
 package himalayanecomm
 
+import HMEcomm.Cart
 import HMEcomm.Category
 import HMEcomm.Product
 import HMEcomm.SubCategory
@@ -73,5 +74,13 @@ class ProductService {
 
 
 
+    }
+
+    def numberOfItemsAvailable(Product product){
+        List<Cart> cartList = Cart.findAllByProductAndIsDeleted(product, false)
+        int orderedCount = cartList.size()
+        int totalCount = product.availableQuantity
+        int availbaleCount = totalCount - orderedCount
+        return availbaleCount
     }
 }

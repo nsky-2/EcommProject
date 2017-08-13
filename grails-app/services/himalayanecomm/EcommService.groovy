@@ -8,6 +8,7 @@ import HMEcomm.SubCategory
 class EcommService {
 
     def cartService
+    def productService
 
     def allMap() {
         def resultMap = [:]
@@ -40,7 +41,7 @@ class EcommService {
             cartItemMap.put('productName',cart?.product?.name)
             cartItemMap.put('productCode',cart?.product?.code)
             cartItemMap.put('productPrice', cart?.product?.price)
-            cartItemMap.put('productAvailableQuantity',cart?.product?.availableQuantity)
+            cartItemMap.put('productAvailableQuantity',productService.numberOfItemsAvailable(cart?.product))
             cartItemMap.put('quantity',cart?.quantity)
             cartItemMap.put('total',total)
             grandTotal+=total

@@ -27,6 +27,7 @@ class EcommController {
     def ecommService
     def customerService
     def cartService
+    def productService
 
     def index() {
 //        def map = ecommService.allMap()
@@ -137,7 +138,9 @@ class EcommController {
 
         def reviews=Reviews.findByProductAndStatus(product,"Approved")
         println "reviews = $reviews"
-        [product:product, topTwoRecomm:topTwoRecomm, allMap: allMap, ratedValue:ratedValue, reviews:reviews, productList:productList]
+        int availableQuantity = productService.numberOfItemsAvailable(product)
+        [product:product, topTwoRecomm:topTwoRecomm, allMap: allMap, availableQuantity:availableQuantity,
+         ratedValue:ratedValue, reviews:reviews, productList:productList]
     }
 
     def productInfoo(){

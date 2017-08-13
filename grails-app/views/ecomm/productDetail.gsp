@@ -51,12 +51,17 @@
                     <li class="productName"><span>${(product?.name)}</span></li>
                     <li class="productPrice"><span>‎रु ${(product?.price)}</span></li>
                     <li class="productModel">Model No. :<span class="modelNo"> ${(product?.code)}</span></li>
-                    <li>${product?.availability}</li>
-                    <li class="productQuantity"><span class="qty">Quantity : </span>
-                        <span class="fa minus"> - </span>
-                        <input type="number" value="1" class="fieldQuantity">
-                        <span class="fa plus" > + </span>
-                    </li>
+                    <g:if test="${availableQuantity > 0}">
+                        <li>${product?.availability}: ${availableQuantity}</li>
+                        <li class="productQuantity"><span class="qty">Quantity : </span>
+                            <span class="fa minus"> - </span>
+                            <input type="number" max="${availableQuantity}" min="1" value="1" class="fieldQuantity">
+                            <span class="fa plus" > + </span>
+                        </li>
+                    </g:if>
+                    <g:else>
+                        <li>OUT OF STOCK</li>
+                    </g:else>
                     <li class="addToCart"><a class="login-window" title="Add to cart" onclick="addToCart('cart', ${product?.id}, '${g.createLink(controller:'ecomm',action:'addToCart')}')"><div class="button"><i class="fa fa-shopping-cart"></i>Add to cart</div></a></li>
                     <li class="buyProduct"><a class="login-window" title="Buy Product"><div class="button"><i class="fa fa-inr"></i>Buy</div></a></li>
                     <li hidden="hidden"><a id="anchorCart" href="#cart-box" class="login-window"/></li>
