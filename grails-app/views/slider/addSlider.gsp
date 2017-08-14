@@ -28,7 +28,7 @@
 
                 </div>
                 <div class="widget-content nopadding">
-                    <g:form action="insertSliderImage" class="form-horizontal" params="">
+                    <g:form action="insertSliderImage" enctype="multipart/form-data" class="form-horizontal" params="">
                     %{--<div class="control-group">--}%
 
                     %{--<div class="controls">--}%

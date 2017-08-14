@@ -6,6 +6,7 @@ import org.springframework.web.multipart.MultipartHttpServletRequest
 import org.springframework.web.multipart.commons.CommonsMultipartFile
 
 class SliderController {
+    def sliderService
 
     def index() {}
 
@@ -43,13 +44,17 @@ class SliderController {
         {
             log.error("Your exception here",e)
         }
-        if(SliderService.saveSliderImage(params, filename)){
+        Slider slider1= new Slider()
+        slider1.title= params?.title
+        slider1.photo=filename
+        slider1.status=params?.status?:'Active'
+
+        if(slider1.save(flush: true, failOnError: true)){
             def slider=Slider.list()
             println "slider = $slider"
             render (view: 'sliderView',model: [slider:slider, imgPath:imageUploadPath])
 //            render "success"
-        }
-        else{
+        } else{
             render "Error"
         }
 

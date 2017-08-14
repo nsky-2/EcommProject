@@ -1,7 +1,6 @@
 package HMEcomm
 
-
-
+import himalayanecomm.SliderController
 import org.junit.*
 import grails.test.mixin.*
 
